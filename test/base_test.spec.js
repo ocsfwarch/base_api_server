@@ -13,6 +13,12 @@ const testStructure = {
   },
 };
 
+describe("GET /", () => {
+  it("responds with 404", () => {
+    return supertest(app).get("/").expect(404);
+  });
+});
+
 describe("GET /test", () => {
   it("responds with 200 and a test data structure", () => {
     return supertest(app).get("/test").expect(200, testStructure);

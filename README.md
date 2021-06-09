@@ -30,4 +30,7 @@ This project was created to provide the base source code requirements for an api
 
 ## Testing
 
-There is a single test case for the /test GET route, run `npm run test`. The test case expects a `200` status and the exact test data structure.
+- There is are 2 test cases, / GET route and /test GET route.
+- Run `npm run test`.
+- The root test case expects a `404` not found result.
+- The /test case expects a `200` status and the exact test data structure.
