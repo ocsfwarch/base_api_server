@@ -27,3 +27,7 @@ This project was created to provide the base source code requirements for an api
 
 - The server should return:
   `{ "data":{ "title":"test title", "description":"this is a test data structure", "results":"SUCCESS" } }`
+
+## Testing
+
+There is a single test case for the /test GET route, run `npm run test`. The test case expects a `200` status and the exact test data structure.
