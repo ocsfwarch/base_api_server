@@ -17,3 +17,9 @@ This project was created to provide the base source code requirements for an api
 | `/errors/errorHandler.js`                 | This is a generic `500` error handler.                       |
 | `/errors/methodNotAllowed.js`             | This is a generic `404` error handler.                       |
 | `/errors/notFound.js -`                   | This is a generic `405` error handler.                       |
+
+## Installation
+
+1. Fork and clone this repository.
+2. Run `npm install` to install project dependencies.
+3. Run `npm run start:dev` to start your server in development mode.
