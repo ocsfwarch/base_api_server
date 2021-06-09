@@ -26,9 +26,4 @@ This project was created to provide the base source code requirements for an api
 4. Use Postman or a browser to check the server at `localhost:5000/test`
 
 - The server should return:
-  `{ `"data":{
-  "title":"test title",
-  "description":"this is a test data structure",
-  "results":"SUCCESS"
-  }
-  }`
+  `{ "data":{ "title":"test title", "description":"this is a test data structure", "results":"SUCCESS" } }`
