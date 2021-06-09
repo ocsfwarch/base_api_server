@@ -8,10 +8,10 @@ This project was created to provide the base source code requirements for an api
 
 ## Source Files
 
-/src/server.js - Provides the interface connection to the app.
-/src/app.js - Provides the user functionality access to the app.
-/components/TestRoute/test.router.js - This provides a test route for verification of connectivity.
-/components/TestRoute/test.controller.js - This provides the route access to the data.
-/errors/errorHandler.js - This is a generic `500` error handler.
-/errors/methodNotAllowed.js - This is a generic `405` error handler.
-/errors/notFound.js - This is a generic `404` error handler.
+- /src/server.js - Provides the interface connection to the app.
+- /src/app.js - Provides the user functionality access to the app.
+- /components/TestRoute/test.router.js - This provides a test route for verification of connectivity.
+- /components/TestRoute/test.controller.js - This provides the route access to the data.
+- /errors/errorHandler.js - This is a generic `500` error handler.
+- /errors/methodNotAllowed.js - This is a generic `405` error handler.
+- /errors/notFound.js - This is a generic `404` error handler.
