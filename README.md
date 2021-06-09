@@ -23,3 +23,12 @@ This project was created to provide the base source code requirements for an api
 1. Fork and clone this repository.
 2. Run `npm install` to install project dependencies.
 3. Run `npm run start:dev` to start your server in development mode.
+4. Use Postman or a browser to check the server at `localhost:5000/test`
+
+- The server should return:
+  `{ `"data":{
+  "title":"test title",
+  "description":"this is a test data structure",
+  "results":"SUCCESS"
+  }
+  }`
