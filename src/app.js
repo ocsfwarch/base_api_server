@@ -8,12 +8,10 @@ const cors = require("cors");
 const testRouter = require("./components/TestRoute/test.router");
 const errorHandler = require("./errors/errorHandler");
 const notFound = require("./errors/notFound");
-
 const app = express();
 
 app.use(cors());
 app.use(express.json());
-
 app.use("/test", testRouter);
 
 app.use(notFound);
